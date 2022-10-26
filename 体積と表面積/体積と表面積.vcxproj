@@ -139,7 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="getVolumeSurface.cpp" />
     <ClCompile Include="体積と表面積.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="getVolumeSurface.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
